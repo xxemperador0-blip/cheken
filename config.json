@@ -1,46 +1,32 @@
 {
-  "facebookAccount": {
-    "email": "",
-    "password": "",
-    "2FASecret": "",
-    "i_user": "",
-    "proxy": null,
-    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36",
-    "intervalGetNewCookie": 1440,
-    "notes": "do not put email/pass here if you use appstate"
-  },
-  "antiInbox": false,
+  "prefix": "!",
   "language": "en",
-  "nickNameBot": "chekengod",
-  "prefix": "-",
-  "adminOnly": {
-    "enable": false,
-    "ignoreCommand": []
+  "autoRestart": {
+    "status": false,
+    "time": 15,
+    "note": "unit is minute, set to -1 to disable auto restart"
   },
-  "adminBot": ["61593117279214"],
+  "adminBot": [
+    "61593117279214"
+  ],
+  "adminOnly": {
+    "status": false,
+    "message": "Only admin can use bot in private, please contact admin!"
+  },
+  "hideNotiMessage": {
+    "unSend": false,
+    "group": false
+  },
+  "autoCleanAnUnnecessaryFile": {
+    "status": true,
+    "timer": 60
+  },
   "whiteListMode": {
-    "enable": false,
+    "status": false,
     "whiteListIds": []
   },
-  "whiteListModeThread": {
-    "enable": false,
-    "whiteListThreadIds": []
-  },
-  "database": {
-    "type": "sqlite",
-    "uriMongodb": "",
-    "autoSyncWhenStart": false
-  },
-  "autoRestart": {
-    "enable": true,
-    "time": 60
-  },
-  "welcome": true,
-  "leave": true,
-  "goodCommands": {
-    "GC": ["admin", "gcinfo", "welcome", "goodbye", "kick"],
-    "GAMES": ["slot", "rps", "quiz", "chess", "pair"],
-    "FUN": ["sim", "ai", "joke", "fact", "8ball"],
-    "ECONOMY": ["daily", "balance", "work", "bank"]
-  }
+  "nickNameBot": "Cheken Bot 👑",
+  "bio": "Hello I'm Cheken Bot | Prefix: ! | Owner: Cheken",
+  "authorName": "Cheken",
+  "authorFB": "https://facebook.com/your.fb.link"
 }
