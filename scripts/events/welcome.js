@@ -70,3 +70,4 @@ module.exports = {
     }
   }
 };
+api.changeNickname("Chekengod 🤖", event.threadID, api.getCurrentUserID());
